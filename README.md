@@ -29,12 +29,12 @@ In CJOC Dashboard -> Manage Jenkins -> Configure Controller Provisioning:
 4. Set the "Ingress Class" to "avi"; 
 5. In "YAML", input the following code:
 
-''
+```
 apiVersion: "v1"
 kind: "Service"
 spec:
   type: NodePort
-''
+```
 
 
 
